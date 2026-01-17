@@ -14,6 +14,11 @@ def index():
 def privacidad():
     return render_template('privacidad.html')
 
+#TERMINOS Y CONDICIONES
+@app.route('/terminos')
+def terminos():
+    return render_template('terminos.html')
+
 # 3. API DE PREGUNTAS: Entrega el JSON con las 160 preguntas
 @app.route('/api/preguntas-completas')
 def obtener_preguntas():
