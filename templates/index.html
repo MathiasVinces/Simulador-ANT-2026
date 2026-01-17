@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Pro ANT - 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Corrección del error de CSS */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 209, 255, 0.2);
+        }
+        .text-celeste { color: #00d1ff; }
+        .bg-celeste { background-color: #00d1ff; }
+        
+        /* Estilo neón corregido */
+        .shadow-neon { 
+            box-shadow: 0 0 15px rgba(0, 209, 255, 0.4); 
+        }
+        .shadow-neon-green {
+            box-shadow: 0 0 8px rgba(74, 222, 128, 0.6);
+        }
+        .shadow-neon-red {
+            box-shadow: 0 0 8px rgba(248, 113, 113, 0.6);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen">
+
+    <div class="max-w-5xl mx-auto p-4 md:p-8">
+        <header class="text-center mb-6">
+            <h1 class="text-5xl font-black text-celeste tracking-tighter drop-shadow-sm">LICENCIA TIPO B</h1>
+            <p class="text-slate-400 font-bold uppercase tracking-widest text-[10px] mt-1">Simulador Futurista 2026</p>
+        </header>
+
+        <div class="flex justify-center gap-4 mb-6">
+            <div class="bg-white px-6 py-2 rounded-2xl shadow-sm border border-slate-100 flex items-center gap-3">
+                <div class="w-2.5 h-2.5 rounded-full bg-green-400 shadow-neon-green"></div>
+                <span class="text-[10px] font-black text-slate-400 uppercase">Correctas</span>
+                <span id="contador-correctas" class="text-xl font-black text-slate-700">0</span>
+            </div>
+            <div class="bg-white px-6 py-2 rounded-2xl shadow-sm border border-slate-100 flex items-center gap-3">
+                <div class="w-2.5 h-2.5 rounded-full bg-red-400 shadow-neon-red"></div>
+                <span class="text-[10px] font-black text-slate-400 uppercase">Incorrectas</span>
+                <span id="contador-incorrectas" class="text-xl font-black text-slate-700">0</span>
+            </div>
+        </div>
+
+        <div class="max-w-3xl mx-auto">
+            <div class="mb-8">
+                <div class="flex justify-between text-[10px] font-black text-celeste mb-2 uppercase">
+                    <span id="progreso-texto">ESPERANDO INICIO...</span>
+                    <span id="porcentaje">0%</span>
+                </div>
+                <div class="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
+                    <div id="barra-progreso" class="bg-celeste h-full transition-all duration-700 w-0 shadow-neon"></div>
+                </div>
+            </div>
+
+            <div class="glass-card rounded-[2.5rem] p-8 md:p-12 shadow-2xl shadow-sky-100 relative overflow-hidden">
+                
+                <div id="pantalla-inicio" class="py-10 text-center">
+                    <button onclick="iniciar()" class="bg-celeste hover:bg-sky-400 text-white px-12 py-5 rounded-2xl font-black text-xl transition-all hover:scale-105 shadow-xl shadow-sky-200">
+                        EMPEZAR SIMULADOR
+                    </button>
+                </div>
+
+                <div id="pantalla-test" class="hidden">
+                    <div class="mb-6 flex justify-between items-center">
+                        <span id="categoria" class="bg-sky-100 text-celeste text-[10px] px-4 py-1.5 rounded-full font-black uppercase tracking-widest"></span>
+                        <button onclick="saltar()" class="text-[10px] font-black text-slate-300 hover:text-celeste transition-colors">
+                            SALTAR PREGUNTA ❯
+                        </button>
+                    </div>
+
+                    <h2 id="pregunta-texto" class="text-2xl font-bold mb-8 leading-tight text-slate-700 text-balance"></h2>
+
+                    <div id="contenedor-img" class="hidden justify-center mb-10 bg-white p-6 rounded-[2rem] border border-slate-50 shadow-inner">
+                        <img id="imagen-pregunta" src="" alt="Señal" class="max-h-48 object-contain">
+                    </div>
+
+                    <div id="opciones-container" class="grid grid-cols-1 gap-3"></div>
+
+                    <div id="control-siguiente" class="mt-10 hidden">
+                        <button onclick="siguiente()" class="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg hover:bg-celeste transition-all shadow-lg">
+                            SIGUIENTE PREGUNTA
+                        </button>
+                    </div>
+                </div>
+
+                <div id="pantalla-especificas" class="hidden flex-col items-center justify-center py-10 text-center">
+                    <div class="w-20 h-20 mb-6 border-4 border-celeste border-t-transparent rounded-full animate-spin shadow-neon"></div>
+                    <h2 class="text-3xl font-black text-slate-700 mb-2">¡MÓDULO GENERAL LISTO!</h2>
+                    <p class="text-slate-400 font-bold text-xs uppercase mb-10 tracking-widest">Iniciando Preguntas Específicas</p>
+                    <button onclick="comenzarEspecificas()" class="bg-celeste hover:bg-sky-400 text-white px-12 py-5 rounded-2xl font-black text-xl transition-all shadow-xl">
+                        CONTINUAR ❯
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let preguntas = [];
+        let index = 0;
+        let correctas = 0;
+        let incorrectas = 0;
+
+        async function iniciar() {
+            try {
+                const r = await fetch('/api/preguntas-completas');
+                preguntas = await r.json();
+                document.getElementById('pantalla-inicio').classList.add('hidden');
+                document.getElementById('pantalla-test').classList.remove('hidden');
+                mostrar();
+            } catch (error) {
+                console.error("Error cargando preguntas:", error);
+            }
+        }
+
+        function actualizarMarcador() {
+            document.getElementById('contador-correctas').innerText = correctas;
+            document.getElementById('contador-incorrectas').innerText = incorrectas;
+        }
+
+        function mostrar() {
+            const p = preguntas[index];
+            document.getElementById('control-siguiente').classList.add('hidden');
+            document.getElementById('categoria').innerText = p.categoria || "ANT";
+            document.getElementById('pregunta-texto').innerText = p.pregunta;
+
+            const cImg = document.getElementById('contenedor-img');
+            const iImg = document.getElementById('imagen-pregunta');
+            
+            // Lógica de imagen basada en tus recortes
+            if(p.imagen) {
+                cImg.classList.remove('hidden');
+                cImg.classList.add('flex');
+                iImg.src = p.imagen;
+            } else {
+                cImg.classList.add('hidden');
+            }
+
+            const perc = ((index + 1) / preguntas.length) * 100;
+            document.getElementById('barra-progreso').style.width = perc + "%";
+            document.getElementById('progreso-texto').innerText = `PREGUNTA ${index + 1} DE ${preguntas.length}`;
+            document.getElementById('porcentaje').innerText = Math.round(perc) + "%";
+
+            const cont = document.getElementById('opciones-container');
+            cont.innerHTML = '';
+            p.opciones.forEach(opt => {
+                const btn = document.createElement('button');
+                btn.className = "text-left p-5 rounded-2xl bg-white border-2 border-slate-100 hover:border-celeste hover:bg-sky-50 transition-all font-semibold text-slate-500 shadow-sm";
+                btn.innerText = opt;
+                btn.onclick = (e) => verificar(e.target, opt, p.respuesta_correcta);
+                cont.appendChild(btn);
+            });
+        }
+
+        function verificar(btn, sel, corr) {
+            const opciones = document.querySelectorAll('#opciones-container button');
+            opciones.forEach(b => b.disabled = true);
+
+            if(sel === corr) {
+                correctas++;
+                btn.className = "text-left p-5 rounded-2xl border-2 border-green-400 bg-green-50 text-green-600 font-bold shadow-md";
+            } else {
+                incorrectas++;
+                btn.className = "text-left p-5 rounded-2xl border-2 border-red-400 bg-red-50 text-red-600 font-bold shadow-md";
+                // Mostrar la correcta sutilmente
+                opciones.forEach(b => {
+                    if(b.innerText === corr) b.classList.add('border-green-400', 'text-green-600');
+                });
+            }
+            actualizarMarcador();
+            document.getElementById('control-siguiente').classList.remove('hidden');
+        }
+
+        function saltar() {
+            siguiente();
+        }
+
+        function siguiente() {
+            index++;
+            // Transición a específicas tras la pregunta 139
+            if (index === 139) {
+                document.getElementById('pantalla-test').classList.add('hidden');
+                document.getElementById('pantalla-especificas').classList.remove('hidden');
+            } 
+            else if (index < preguntas.length) {
+                mostrar();
+            } else {
+                alert(`Simulacro finalizado.\nCorrectas: ${correctas}\nIncorrectas: ${incorrectas}`);
+                location.reload();
+            }
+        }
+
+        function comenzarEspecificas() {
+            document.getElementById('pantalla-especificas').classList.add('hidden');
+            document.getElementById('pantalla-test').classList.remove('hidden');
+            mostrar();
+        }
+    </script>
+</body>
+</html>

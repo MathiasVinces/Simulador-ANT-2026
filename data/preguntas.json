@@ -1,0 +1,1149 @@
+[
+  {
+    "id": 1,
+    "pregunta": "El no acatar lo indicado en una señal de tránsito, ¿Es una infracción?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": null
+  },
+  {
+    "id": 2,
+    "pregunta": "En un semáforo con giro a la derecha o izquierda, si el conductor tiene el semáforo en verde, al igual que los peatones, ¿Quién tiene la preferencia?",
+    "opciones": ["Los peatones", "Los vehículos", "Ambos"],
+    "respuesta_correcta": "Los peatones",
+    "imagen": "/static/img/2.png"
+  },
+  {
+    "id": 3,
+    "pregunta": "Cuándo un cruce de vía está regulado por un agente de tránsito, ¿Las señales manuales de éste prevalecen sobre cualquier otra existente, incluso semáforos?",
+    "opciones": ["A veces", "Siempre", "Nunca"],
+    "respuesta_correcta": "Siempre",
+    "imagen": null
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Una línea continua pintada en la calzada de color blanco o amarillo restringe la circulación vehicular de tal manera que ningún vehículo podrá cruzar como se observa en la imagen?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": "/static/img/4.png"
+  },
+  {
+    "id": 5,
+    "pregunta": "Una línea discontinua de color amarillo o blanco pintada en la calzada, de acuerdo a la imagen ¿Que indica?",
+    "opciones": ["Permite rebasar o adelantar sobre esta línea, siempre que exista seguridad para hacerlo", "El conductor no puede realizar maniobras de adelantamiento cuando la línea es discontinua", "Restringe la circulación vehicular de tal manera que ningún vehículo podrá cruzar esta línea"],
+    "respuesta_correcta": "Permite rebasar o adelantar sobre esta línea, siempre que exista seguridad para hacerlo",
+    "imagen": "/static/img/5.png"
+  },
+  {
+    "id": 6,
+    "pregunta": "Cuando vea pintado en la calzada una línea mixta, con la línea continua a la izquierda del conductor, de acuerdo a la imagen ¿Qué indica esta línea?",
+    "opciones": ["Puede realizar maniobras de adelantamiento cuando tiene la línea discontinua a la izquierda del conductor", "Puede realizar maniobras de adelantamiento cuando tiene la línea discontinua a la izquierda y derecha del conductor", "El conductor no puede realizar maniobras de adelantamiento cuando tiene la línea continua a su izquierda"],
+    "respuesta_correcta": "El conductor no puede realizar maniobras de adelantamiento cuando tiene la línea continua a su izquierda",
+    "imagen": "/static/img/6.png"
+  },
+  {
+    "id": 7,
+    "pregunta": "Cuando ve pintado de color blanco o amarillo en la calzada doble línea continua ¿Qué indica?",
+    "opciones": ["El conductor puede realizar maniobras de adelantamiento cuando tiene doble línea", "Le permite al conductor rebasar o adelantar, siempre que exista la seguridad de hacerlo", "Están totalmente prohibidas las maniobras para rebasar o adelantar por cualquiera de los carriles que se transite para evitar choques"],
+    "respuesta_correcta": "Están totalmente prohibidas las maniobras para rebasar o adelantar por cualquiera de los carriles que se transite para evitar choques",
+    "imagen": "/static/img/7.png"
+  },
+  {
+    "id": 8,
+    "pregunta": "De acuerdo a la imagen, ¿Qué debe hacer si compartarte carril con un ciclista?",
+    "opciones": ["Da prioridad a ciclista en el carril compartido", "Reduce a velocidad y comparte la vía con el ciclista", "Ambas"],
+    "respuesta_correcta": "Ambas",
+    "imagen": "/static/img/8.png"
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Esta señal se utiliza para indicar?",
+    "opciones": ["Un solo carril", "Obligación de los conductores circular solo en la dirección indicada", "Doble vía"],
+    "respuesta_correcta": "Obligación de los conductores circular solo en la dirección indicada",
+    "imagen": "/static/img/9.png"
+  },
+  {
+    "id": 10,
+    "pregunta": "De acuerdo a la imagen esta señal indica, No exceder de 30 km/h",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": "/static/img/10.png"
+  },
+  {
+    "id": 11,
+    "pregunta": "De acuerdo a la imagen, ¿esta señal indica prohibido el cambio de carril?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": "/static/img/11.png"
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Qué debe hacer cuando usted observa esta señal?",
+    "opciones": ["Detenerse antes de la línea de pare y ceder el paso a todo tránsito", "Detenerse antes de la línea de pare y ceder el paso a todo tránsito", "Reducir la velocidad y estar preparado para detenerse solamente si hay peligro de colisión con otro vehículo o peatón"],
+    "respuesta_correcta": "Detenerse antes de la línea de pare y ceder el paso a todo tránsito",
+    "imagen": "/static/img/12.png"
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Qué significa está señal?",
+    "opciones": ["Viraje permitido en el sentido de la flecha", "Viraje prohibido al sentido de la flecha", "Viraje seguro"],
+    "respuesta_correcta": "Viraje prohibido al sentido de la flecha",
+    "imagen": "/static/img/13.png"
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["No girar en \"U\"", "No virar a la izquierda", "Tener cuidado con el tráfico que vira"],
+    "respuesta_correcta": "No girar en \"U\"",
+    "imagen": "/static/img/14.png"
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Estacionamiento permitido para camiones", "Tránsito pesado debe circular por la derecha", "Circulación solo tránsito pesado"],
+    "respuesta_correcta": "Tránsito pesado debe circular por la derecha",
+    "imagen": "/static/img/15.png"
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Prohibido circular vehículos pesados", "Tránsito pesado a la derecha", "Solo tránsito pesado"],
+    "respuesta_correcta": "Prohibido circular vehículos pesados",
+    "imagen": "/static/img/16.png"
+  },
+  {
+    "id": 17,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Solo tránsito liviano", "Prohibido doble columna", "Prohibido adelantar o rebasar"],
+    "respuesta_correcta": "Prohibido adelantar o rebasar",
+    "imagen": "/static/img/17.png"
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Vehículos livianos deben girar a la derecha", "Vehículos livianos deben mantener su derecha", "Permitido estacionarse vehículos livianos"],
+    "respuesta_correcta": "Vehículos livianos deben mantener su derecha",
+    "imagen": "/static/img/18.png"
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Cambio de carril", "No entre", "Comienza doble vía, pueden venir vehículos en sentido contrario. Precaución"],
+    "respuesta_correcta": "Comienza doble vía, pueden venir vehículos en sentido contrario. Precaución",
+    "imagen": "/static/img/19.png"
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Prohibido estacionarse o detenerse", "Prohibido estacionarse", "Permite detenerse por un minuto solamente"],
+    "respuesta_correcta": "Prohibido estacionarse o detenerse",
+    "imagen": "/static/img/20.png"
+  },
+  {
+    "id": 21,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Ingreso permitido", "No entre", "Ninguna de las anteriores"],
+    "respuesta_correcta": "No entre",
+    "imagen": "/static/img/21.png"
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Prohibido virar en U o a la izquierda", "Prohibido virar en U o a la derecha", "Prohibido virar a la derecha o a la izquierda"],
+    "respuesta_correcta": "Prohibido virar en U o a la izquierda",
+    "imagen": "/static/img/22.png"
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Prohibido virar en U o a la izquierda", "Prohibido tomar la vía sinuosa", "Prohibido cambio de carril a la izquierda"],
+    "respuesta_correcta": "Prohibido cambio de carril a la izquierda",
+    "imagen": "/static/img/23.png"
+  },
+  {
+    "id": 24,
+    "pregunta": "¿Cuáles son las consecuencias de incumplimiento de esta señal (prohibido estacionarse)?",
+    "opciones": ["Sanción con el 10% del salario básico unificado", "Pena privativa de libertad", "Retiro de la licencia de conducir."],
+    "respuesta_correcta": "Sanción con el 10% del salario básico unificado",
+    "imagen": "/static/img/24.png"
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Permitido estacionar a la izquierda hasta la próxima intersección", "Prohibido estacionar a la derecha hasta la próxima intersección", "Prohibido estacionar al lado izquierdo de la señal hasta la próxima intersección"],
+    "respuesta_correcta": "Prohibido estacionar al lado izquierdo de la señal hasta la próxima intersección",
+    "imagen": "/static/img/25.png"
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Estacionar a la derecha hasta la próxima intersección", "Prohibido estacionar al lado derecho de la señal hasta la próxima intersección", "Prohibición de estacionar a la izquierda hasta la próxima intersección"],
+    "respuesta_correcta": "Prohibido estacionar al lado derecho de la señal hasta la próxima intersección",
+    "imagen": "/static/img/26.png"
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Prohibido estacionar a los dos lados de la señal hasta la próxima intersección a izquierda y derecha", "Estacionar a la derecha hasta la próxima intersección", "Prohibición de estacionar a la izquierda"],
+    "respuesta_correcta": "Prohibido estacionar a los dos lados de la señal hasta la próxima intersección a izquierda y derecha",
+    "imagen": "/static/img/27.png"
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Estacionamiento tarifado", "Prohibición de estacionar", "Estacionamiento permitido"],
+    "respuesta_correcta": "Estacionamiento permitido",
+    "imagen": "/static/img/28.png"
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Estacionamiento tarifado durante los días y horarios señalados", "Estacionamiento tarifado a excepción de los días y horarios definidos", "Estacionamiento no tarifado"],
+    "respuesta_correcta": "Estacionamiento tarifado durante los días y horarios señalados",
+    "imagen": "/static/img/29.png"
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Estacionamiento prohibido para personas con discapacidad", "Estacionamiento reservado solo para personas con discapacidad", "Estacionamiento reservado para vehículos grandes"],
+    "respuesta_correcta": "Estacionamiento reservado solo para personas con discapacidad",
+    "imagen": "/static/img/30.png"
+  },
+  {
+    "id": 31,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Estacionamiento en paralelo reservado para vehículos grandes", "Estacionamiento en reservado solo para personas con discapacidad a los lados de la señal", "Estacionamiento en paralelo prohibido para personas con discapacidad"],
+    "respuesta_correcta": "Estacionamiento en reservado solo para personas con discapacidad a los lados de la señal",
+    "imagen": "/static/img/31.png"
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Qué debe hacer el conductor de un vehículo particular frente a esta señal?",
+    "opciones": ["Detener o estacionar el vehículo en esta zona", "Aumentar la velocidad o rebasar al bus", "Abstenerse de estacionar o detener el vehículo en esta zona"],
+    "respuesta_correcta": "Abstenerse de estacionar o detener el vehículo en esta zona",
+    "imagen": "/static/img/32.png"
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Largo máximo de los vehículos que circulan por esa vía", "Ancho máximo de los vehículos que circulan por esa vía", "Ancho de la vía"],
+    "respuesta_correcta": "Largo máximo de los vehículos que circulan por esa vía",
+    "imagen": "/static/img/33.png"
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Circular utilizando luces de estacionamiento", "Circular con precaución sobre ese carril ya que es compartido con peatones y ciclistas", "Carril exclusivo para peatones y ciclistas"],
+    "respuesta_correcta": "Carril exclusivo para peatones y ciclistas",
+    "imagen": "/static/img/34.png"
+  },
+  {
+    "id": 35,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Que el carril segregado exclusivo para ciclistas y peatones se termina", "Que el carril segregado exclusivo para ciclistas y peatones se termina e inicia en la siguiente intersección", "Ninguna de las anteriores"],
+    "respuesta_correcta": "Que el carril segregado exclusivo para ciclistas y peatones se termina",
+    "imagen": "/static/img/35.png"
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Qué debe hacer al observar la siguiente señal regulatoria?",
+    "opciones": ["Ceder el paso solo a los peatones", "Ceder el paso a los conductores, peatones y ciclistas", "Ceder el paso solo a los conductores"],
+    "respuesta_correcta": "Ceder el paso a los conductores, peatones y ciclistas",
+    "imagen": "/static/img/36.png"
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante vía lateral", "Más adelante cruce de vías", "Más adelante intersección en “Y”"],
+    "respuesta_correcta": "Más adelante intersección en “Y”",
+    "imagen": "/static/img/37.png"
+  },
+  {
+    "id": 38,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante vire en U", "Aproximación a redondel", "Más adelante zona de derrumbes"],
+    "respuesta_correcta": "Aproximación a redondel",
+    "imagen": "/static/img/38.png"
+  },
+  {
+    "id": 39,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante circulación en doble vía (bidireccional)", "Más adelante circulación en una vía", "Más adelante vire a la derecha"],
+    "respuesta_correcta": "Más adelante circulación en doble vía (bidireccional)",
+    "imagen": "/static/img/39.png"
+  },
+  {
+    "id": 40,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante curva abierta hacia el lado que indica la flecha", "Más adelante curva cerrada hacia la derecha", "Más adelante curva y contra curva"],
+    "respuesta_correcta": "Más adelante curva abierta hacia el lado que indica la flecha",
+    "imagen": "/static/img/40.png"
+  },
+  {
+    "id": 41,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante curva pronunciada a la derecha", "Más adelante curva abierta a la derecha", "Más adelante curva y contra curva cerrada a la derecha en la dirección señalada"],
+    "respuesta_correcta": "Más adelante curva y contra curva cerrada a la derecha en la dirección señalada",
+    "imagen": "/static/img/41.png"
+  },
+  {
+    "id": 42,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante curva y contra curva abierta a la izquierda en la dirección señalada", "Más adelante curva pronunciada a la izquierda", "Más adelante curva abierta a la izquierda"],
+    "respuesta_correcta": "Más adelante curva y contra curva abierta a la izquierda en la dirección señalada",
+    "imagen": "/static/img/42.png"
+  },
+  {
+    "id": 43,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante curva y contra curva cerradas a la izquierda", "Más adelante curva pronunciada a la izquierda", "Más adelante vía sinuosa a la izquierda"],
+    "respuesta_correcta": "Más adelante vía sinuosa a la izquierda",
+    "imagen": "/static/img/43.png"
+  },
+  {
+    "id": 44,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Prohibido virar en \"U\" a la izquierda", "Más adelante curva en \"U\" a la izquierda", "Prohibido virar en \"U\" a la derecha"],
+    "respuesta_correcta": "Más adelante curva en \"U\" a la izquierda",
+    "imagen": "/static/img/44.png"
+  },
+  {
+    "id": 45,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante bandas transversales de alerta o de retumbo", "Más adelante agua en la vía", "Más adelante hondonada"],
+    "respuesta_correcta": "Más adelante bandas transversales de alerta o de retumbo",
+    "imagen": "/static/img/45.png"
+  },
+  {
+    "id": 46,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante calzada irregular", "Más adelante reductor de velocidad", "Más adelante hondonada"],
+    "respuesta_correcta": "Más adelante reductor de velocidad",
+    "imagen": "/static/img/46.png"
+  },
+  {
+    "id": 47,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante pendiente peligrosa", "Más adelante angostamiento en la vía", "Más adelante puente angosto"],
+    "respuesta_correcta": "Más adelante angostamiento en la vía",
+    "imagen": "/static/img/47.png"
+  },
+  {
+    "id": 48,
+    "pregunta": "¿Cómo debe actuar un conductor frente a la señal de curva cerrada?",
+    "opciones": ["Acelerar", "Disminuir la velocidad antes de ingresar a la curva", "Mantener la misma velocidad en la que se encuentra circulando"],
+    "respuesta_correcta": "Disminuir la velocidad antes de ingresar a la curva",
+    "imagen": "/static/img/48.png"
+  },
+  {
+    "id": 49,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Aproximación a una curva abierta a la derecha", "Aproximación a una contra curva a la derecha", "Aproximación a una curva cerrada en la dirección señalada"],
+    "respuesta_correcta": "Aproximación a una curva cerrada en la dirección señalada",
+    "imagen": "/static/img/49.png"
+  },
+  {
+    "id": 50,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Aproximación a un cruce de vías al virar a la izquierda", "Aproximación a una curva cerrada a la izquierda", "Aproximación a una vía lateral izquierda o derecha en curva"],
+    "respuesta_correcta": "Aproximación a una vía lateral izquierda o derecha en curva",
+    "imagen": "/static/img/50.png"
+  },
+  {
+    "id": 51,
+    "pregunta": "Esta señal se utiliza para indicar:",
+    "opciones": ["La ubicación y el lugar por el cual el flujo de tránsito debe continuar la calzada normal", "Que el desvío se ha terminado y que el flujo del tránsito regresa por el desvío a la ruta original", "Dirección y lugar por el cual el flujo de tránsito debe dejar la calzada normal y desviarse por otras calles"],
+    "respuesta_correcta": "Dirección y lugar por el cual el flujo de tránsito debe dejar la calzada normal y desviarse por otras calles",
+    "imagen": "/static/img/51.png"
+  },
+  {
+    "id": 52,
+    "pregunta": "¿Qué indica esta señal de tránsito?",
+    "opciones": ["Señal con lugar de destino y mensaje de acciones en palabras", "Señal con código de ruta, lugar de destino y mensaje de salida con distancia en kilómetros", "Señal con lugar de destino y flecha de asignación de carril"],
+    "respuesta_correcta": "Señal con lugar de destino y flecha de asignación de carril",
+    "imagen": "/static/img/52.png"
+  },
+  {
+    "id": 53,
+    "pregunta": "¿Qué le indica la siguiente señal?",
+    "opciones": ["La velocidad máxima en una zona donde se encuentran centros educativos", "Zona Escolar", "Ninguna de las anteriores"],
+    "respuesta_correcta": "Zona Escolar",
+    "imagen": "/static/img/53.png"
+  },
+  {
+    "id": 54,
+    "pregunta": "¿Qué le indica la siguiente señal?",
+    "opciones": ["Reducir la velocidad y conducir con precaución", "La velocidad máxima de circulación en una zona escolar", "Ambas"],
+    "respuesta_correcta": "Ambas",
+    "imagen": "/static/img/54.png"
+  },
+  {
+    "id": 55,
+    "pregunta": "¿Qué le indica la siguiente señal?",
+    "opciones": ["El inicio del paradero de una zona escolar", "Parada de vehículos pesados", "Zona permitida para familiares de estudiantes"],
+    "respuesta_correcta": "El inicio del paradero de una zona escolar",
+    "imagen": "/static/img/55.png"
+  },
+  {
+    "id": 56,
+    "pregunta": "La luz amarilla intermitente en un semáforo significa:",
+    "opciones": ["Parar siempre y cuando lo pueda hacer con seguridad", "Disminuir la velocidad y atravesar la intersección con mucha precaución", "Parar, ceda el paso a todo el tráfico que cruza antes de atravesar la intersección"],
+    "respuesta_correcta": "Disminuir la velocidad y atravesar la intersección con mucha precaución",
+    "imagen": null
+  },
+  {
+    "id": 57,
+    "pregunta": "¿Las instrucciones del agente de tránsito prevalecen sobre las señales de tránsito aunque el semáforo se encuentre en luz roja?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": null
+  },
+  {
+    "id": 58,
+    "pregunta": "¿En cuál de las siguientes luces de semáforo debería siempre detener su vehículo?",
+    "opciones": ["Luces rojas y luces rojas intermitentes", "Luces rojas continuas, flechas rojas y luces amarillas intermitentes", "Luces rojas continuas, luces rojas intermitentes y luces amarillas"],
+    "respuesta_correcta": "Luces rojas y luces rojas intermitentes",
+    "imagen": null
+  },
+  {
+    "id": 59,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Motocicletas deben girar a la derecha", "Permitido estacionarse motocicletas", "Motocicletas deben mantenerse en el carril derecho"],
+    "respuesta_correcta": "Motocicletas deben mantenerse en el carril derecho",
+    "imagen": "/static/img/59.png"
+  },
+  {
+    "id": 60,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Prohibida la circulación de vehículos pesados", "Prohibido el ingreso o circulación de vehículos motorizados", "Prohibida la circulación de buses"],
+    "respuesta_correcta": "Prohibido el ingreso o circulación de vehículos motorizados",
+    "imagen": "/static/img/60.png"
+  },
+  {
+    "id": 61,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante redondel", "Más adelante intersección en “T”", "Más adelante cruce de tren"],
+    "respuesta_correcta": "Más adelante intersección en “T”",
+    "imagen": "/static/img/61.png"
+  },
+  {
+    "id": 62,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante parterre termina", "Más adelante angostamiento de vía", "Más adelante parterre comienza"],
+    "respuesta_correcta": "Más adelante parterre termina",
+    "imagen": "/static/img/62.png"
+  },
+  {
+    "id": 63,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante parterre termina", "Más adelante angostamiento de vía", "Más adelante parterre comienza"],
+    "respuesta_correcta": "Más adelante parterre comienza",
+    "imagen": "/static/img/63.png"
+  },
+  {
+    "id": 64,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante cruce de ganado", "Más adelante cruce de peatones", "Más adelante cruce de maquinaria agrícola"],
+    "respuesta_correcta": "Más adelante cruce de ganado",
+    "imagen": "/static/img/64.png"
+  },
+  {
+    "id": 65,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Túnel obstruido", "Trabajos en el túnel", "Aproximación a túnel"],
+    "respuesta_correcta": "Aproximación a túnel",
+    "imagen": "/static/img/65.png"
+  },
+  {
+    "id": 66,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante vía sinuosa a la derecha", "Más adelante curva pronunciada a la derecha", "Más adelante curva y contra curva abiertas a la derecha"],
+    "respuesta_correcta": "Más adelante vía sinuosa a la derecha",
+    "imagen": "/static/img/66.png"
+  },
+  {
+    "id": 67,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante solo vehículos livianos", "Más adelante vía compartida con ciclistas", "Más adelante vía solo para ciclistas"],
+    "respuesta_correcta": "Más adelante vía compartida con ciclistas",
+    "imagen": "/static/img/67.png"
+  },
+  {
+    "id": 68,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante vía cerrada", "Más adelante reductor de velocidad", "Más adelante depresión en la vía"],
+    "respuesta_correcta": "Más adelante depresión en la vía",
+    "imagen": "/static/img/68.png"
+  },
+  {
+    "id": 69,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Más adelante pendiente peligrosa", "Más adelante estrechamiento en la vía", "Más adelante puente angosto"],
+    "respuesta_correcta": "Más adelante puente angosto",
+    "imagen": "/static/img/69.png"
+  },
+  {
+    "id": 70,
+    "pregunta": "¿Qué significan la siguiente señal?",
+    "opciones": ["Velocidad mínima de Km/h", "Límite máximo de velocidad", "Usted se encuentra en el Kilómetro 30"],
+    "respuesta_correcta": "Límite máximo de velocidad",
+    "imagen": "/static/img/70.png"
+  },
+  {
+    "id": 71,
+    "pregunta": "La luz roja intermitente en un semáforo significa:",
+    "opciones": ["Parar siempre", "Disminuir la velocidad y atravesar la intersección con mucha precaución", "Parar, ceda el paso a todo el tráfico que cruza antes de atravesar la intersección"],
+    "respuesta_correcta": "Parar siempre",
+    "imagen": null
+  },
+  {
+    "id": 72,
+    "pregunta": "La luz roja intermitente en una señal de PARE en el extremo lateral izquierdo de un transporte escolar, ¿Qué significa?",
+    "opciones": ["Prohibido adelantar o rebasar al transporte escolar, hasta que se apague la luz intermitente y se guarde la señal de PARE", "Disminuir la velocidad y adelantar con precaución al transporte escolar", "Que se encendió las luces de estacionamiento del transporte escolar"],
+    "respuesta_correcta": "Prohibido adelantar o rebasar al transporte escolar, hasta que se apague la luz intermitente y se guarde la señal de PARE",
+    "imagen": null
+  },
+  {
+    "id": 73,
+    "pregunta": "La licencia digital es válida para circular en el Ecuador:",
+    "opciones": ["Si", "Solo si está impresa", "Ninguna de las anteriores"],
+    "respuesta_correcta": "Si",
+    "imagen": null
+  },
+  {
+    "id": 74,
+    "pregunta": "Es válido portar una copia simple de la licencia o matrícula para circular en el Ecuador:",
+    "opciones": ["No, nunca", "Solo si está impresa", "Ninguna de las anteriores"],
+    "respuesta_correcta": "No, nunca",
+    "imagen": null
+  },
+  {
+    "id": 75,
+    "pregunta": "Debo hacer un curso de conducción para obtener mi licencia de conductor en el Ecuador:",
+    "opciones": ["No", "Solo si me pide el agente de tránsito", "Sí, siempre"],
+    "respuesta_correcta": "Sí, siempre",
+    "imagen": null
+  },
+  {
+    "id": 76,
+    "pregunta": "El no cancelar el valor de multas no le permitirá: renovar la licencia, realizar la revisión técnica vehicular y matricular su vehículo",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": null
+  },
+  {
+    "id": 77,
+    "pregunta": "¿El conductor que NO haya sido sancionado durante el tiempo de vigencia de la licencia de conducir y mantenga los 30 (puntos), se beneficiará del 30% en el pago del valor de la especie de la licencia de conducir?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "FALSO",
+    "imagen": null
+  },
+  {
+    "id": 78,
+    "pregunta": "Si conduce su vehículo con un nivel de alcohol por litro de sangre de 0, a 0,80; ¿Qué sanción será aplicada?",
+    "opciones": ["Treinta días de privación de libertad y retención del vehículo por veinticuatro horas", "Cinco días de privación de libertad y retención del vehículo por veinticuatro horas", "Ninguna de las anteriores"],
+    "respuesta_correcta": "Cinco días de privación de libertad y retención del vehículo por veinticuatro horas",
+    "imagen": null
+  },
+  {
+    "id": 79,
+    "pregunta": "El conductor que falte de obra a la autoridad o agente de tránsito, ¿Será sancionado con pena privativa de libertad de tres días?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": null
+  },
+  {
+    "id": 80,
+    "pregunta": "Si se queda sin combustible y por esa razón obstaculiza el tránsito vehicular, ¿Está cometiendo una contravención?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": null
+  },
+  {
+    "id": 81,
+    "pregunta": "¿Es una contravención de tránsito, la o el conductor que conduzca con licencia caducada?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": null
+  },
+  {
+    "id": 82,
+    "pregunta": "La o el conductor y pasajeros que no hagan uso del cinturón de seguridad, ¿Corresponde a una contravención de transito?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": null
+  },
+  {
+    "id": 83,
+    "pregunta": "La o el conductor que invada con su vehículo circulando o estacionándose, en las vías asignadas para uso exclusivo de los ciclistas, ¿Corresponde a una contravención de tránsito?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": null
+  },
+  {
+    "id": 84,
+    "pregunta": "Los conductores que conduzcan en estado de embriaguez o bajo los efectos de sustancias estupefacientes, psicotrópicas o preparados que las contengan y del cual provoquen un siniestro del cual resulte la muerte, ¿Qué sanción corresponde?",
+    "opciones": ["Pena privativa de la libertad de doce a veinte años", "Revocatoria definitiva de la licencia para conducir", "Ninguna de las anteriores"],
+    "respuesta_correcta": "Revocatoria definitiva de la licencia para conducir",
+    "imagen": null
+  },
+  {
+    "id": 85,
+    "pregunta": "El conducir un vehículo cuyas llantas se encuentren lisas o en mal estado, ¿Será sancionado con pena privativa de libertad de cinco a quince días?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": null
+  },
+  {
+    "id": 86,
+    "pregunta": "El conducir un vehículo con las luces no encendidas en horas de la noche o conduzca en sitios oscuros como túneles con la luces apagadas, ¿Corresponde a una contravención de tránsito?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": null
+  },
+  {
+    "id": 87,
+    "pregunta": "¿Cuál de los siguientes enunciados corresponde a una contravención de tránsito?",
+    "opciones": ["La o el conductor que conduce sin mantener una distancia prudente de seguimiento respecto al vehículo y ciclista de adelante", "La o el conductor que conduce con una distancia prudente de seguimiento respecto al vehículo de adelante", "La o el conductor que cede el paso y permite el adelantamiento de otros vehículos."],
+    "respuesta_correcta": "La o el conductor que conduce sin mantener una distancia prudente de seguimiento respecto al vehículo y ciclista de adelante",
+    "imagen": null
+  },
+  {
+    "id": 88,
+    "pregunta": "La o el conductor de un vehículo automotor que circule con personas en los estribos o pisaderas, baldes de camionetas, parachoques o colgados de las carrocerías de los vehículos , ¿Es una contravención de transito?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": null
+  },
+  {
+    "id": 89,
+    "pregunta": "La o el conductor de un vehículo particular que tenga vidrios con películas antisolares oscuras, polarizados o cualquier tipo de adhesivo y que no tenga la debida autorización, ¿Corresponde a una contravención de tránsito?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": null
+  },
+  {
+    "id": 90,
+    "pregunta": "¿Qué indican las líneas blancas que se observan en la imagen?",
+    "opciones": ["Estacionamiento en paralelo", "Líneas de borde", "Línea de prohibición de estacionamiento"],
+    "respuesta_correcta": "Líneas de borde",
+    "imagen": "/static/img/90.png"
+  },
+  {
+    "id": 91,
+    "pregunta": "¿Qué indican las líneas amarillas al borde de la calzada que se observan en la imagen?",
+    "opciones": ["Indican a los conductores que es permitido el parqueo vehículos", "Indican a los conductores que se permite el adelantamiento de vehículo", "Indican a los conductores, especialmente en caso de poca visibilidad, dónde se encuentra el borde de la calzada"],
+    "respuesta_correcta": "Indican a los conductores, especialmente en caso de poca visibilidad, dónde se encuentra el borde de la calzada",
+    "imagen": "/static/img/91.png"
+  },
+  {
+    "id": 92,
+    "pregunta": "¿Qué significan las líneas segmentadas pintadas de blanco en una intersección, que se observan en la imagen?",
+    "opciones": ["Cruce de ciclovías", "Cruce peatonal", "Cruce de mascotas"],
+    "respuesta_correcta": "Cruce de ciclovías",
+    "imagen": "/static/img/92.png"
+  },
+  {
+    "id": 93,
+    "pregunta": "De acuerdo a la imagen, ¿Las señales reglamentarias indican la dirección obligatoria en el carril que deben seguir los vehículos en la próxima intersección?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": "/static/img/93.png"
+  },
+  {
+    "id": 94,
+    "pregunta": "¿Qué debe hacer el conductor cuando en la vía observe un cruce peatonal demarcado tipo cebra como indica la imagen?",
+    "opciones": ["Debe pitar para alertar al peatón que no baje de la vereda", "Debe ceder el paso a los peatones que se encuentran cruzando la vía", "Debe acelerar para pasar más rápido"],
+    "respuesta_correcta": "Debe ceder el paso a los peatones que se encuentran cruzando la vía",
+    "imagen": "/static/img/94.png"
+  },
+  {
+    "id": 95,
+    "pregunta": "¿Qué debe hacer el conductor cuando se encuentre con una señal horizontal pintada en la vía como se observa en la imagen?",
+    "opciones": ["Velocidad mínima de 40 km/h", "Velocidad máxima de 40 km/h", "Peso permitido de 40"],
+    "respuesta_correcta": "Velocidad máxima de 40 km/h",
+    "imagen": "/static/img/95.png"
+  },
+  {
+    "id": 96,
+    "pregunta": "De acuerdo a la imagen, ¿Qué significa la siguiente señal horizontal pintada en la vía?",
+    "opciones": ["Estacionar temporalmente cuando no exista un agente de tránsito", "Prohibido estacionar", "Estacionamiento exclusivo para personas con discapacidad"],
+    "respuesta_correcta": "Prohibido estacionar",
+    "imagen": "/static/img/96.png"
+  },
+  {
+    "id": 97,
+    "pregunta": "¿Qué significa esta señalización horizontal?",
+    "opciones": ["Estacionamiento tarifado", "No estacionar", "Estacionamiento gratuito"],
+    "respuesta_correcta": "Estacionamiento tarifado",
+    "imagen": "/static/img/97.png"
+  },
+  {
+    "id": 98,
+    "pregunta": "El conductor cuando se encuentre en una intersección, ¿Debe detener su vehículo, bicicleta y peatones completamente y dar el paso a cualquier vehículo que se encuentre cruzando la intersección?",
+    "opciones": ["VERDADERO", "FALSO", "DESCONOCE"],
+    "respuesta_correcta": "VERDADERO",
+    "imagen": "/static/img/98.png"
+  },
+  {
+    "id": 99,
+    "pregunta": "Los vehículos A y B llegan al mismo tiempo a una intersección en cruz por diferentes lados ¿Cuál tiene derecho de vía?",
+    "opciones": ["Cualquiera de los dos", "El vehículo que se aproxima a la izquierda", "El vehículo que se aproxima a la derecha"],
+    "respuesta_correcta": "El vehículo que se aproxima a la derecha",
+    "imagen": "/static/img/99.png"
+  },
+  {
+    "id": 100,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Saludo", "Giro a izquierda", "Disminuir la velocidad"],
+    "respuesta_correcta": "Giro a izquierda",
+    "imagen": "/static/img/100.png"
+  },
+  {
+    "id": 101,
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Saludo", "Parar", "Giro a derecha"],
+    "respuesta_correcta": "Giro a derecha",
+    "imagen": "/static/img/101.png"
+  },
+  {
+    "id": 102,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿Qué significa esta señal?",
+    "opciones": ["Solicita ayuda", "Estacionarse o detenerse", "Giro a izquierda"],
+    "respuesta_correcta": "Estacionarse o detenerse",
+    "imagen": "/static/img/102.png"
+  },
+  {
+    "id": 103,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿Qué significa el espacio de la berma?",
+    "opciones": ["Estacionamiento", "Espacio exclusivo para circulación de peatones, ciclistas y movilidad personal", "Carril para circulación de motos"],
+    "respuesta_correcta": "Espacio exclusivo para circulación de peatones, ciclistas y movilidad personal",
+    "imagen": "/static/img/103.png"
+  },
+  {
+    "id": 104,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿Qué es la movilidad activa?",
+    "opciones": ["Es aquella que depende del movimiento motorizado, incluye el transporte público", "Es aquella que depende del movimiento físico de las personas, incluye la caminata el uso de la bicicleta y movilidad personal", "Ninguna de las anteriores"],
+    "respuesta_correcta": "Es aquella que depende del movimiento físico de las personas, incluye la caminata el uso de la bicicleta y movilidad personal",
+    "imagen": null
+  },
+  {
+    "id": 105,
+    "categoria": "Derechos y Obligaciones",
+    "pregunta": "¿Cuáles son derechos de los biciusuarios?",
+    "opciones": ["Derecho preferente de vía o circulación en los desvíos de avenidas y carreteras, cruce de caminos intersecciones no señalizadas y ciclovías", "Disponer vías de circulación privilegiada dentro de las ciudades y en carreteras, como ciclovías y espacios similares", "Todas las anteriores"],
+    "respuesta_correcta": "Todas las anteriores",
+    "imagen": null
+  },
+  {
+    "id": 106,
+    "categoria": "Derechos y Obligaciones",
+    "pregunta": "De acuerdo a la normativa, ¿Dónde tienen derecho a circular los ciclistas?",
+    "opciones": ["Únicamente en las sendas especiales destinadas al uso de bicicletas", "En las aceras, con cuidado respectivo a los peatones", "Transitar por todas las vías del país con respeto y seguridad."],
+    "respuesta_correcta": "Transitar por todas las vías del país con respeto y seguridad.",
+    "imagen": null
+  },
+  {
+    "id": 107,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿En qué momento los conductores son responsables de su seguridad, de los pasajeros y el resto de usuarios viales?",
+    "opciones": ["Los conductores no son responsables de lo que el pasajero haga o deje de hacer en cuanto a su seguridad", "En todo momento", "Solo cuando esté encendido el motor del vehículo"],
+    "respuesta_correcta": "En todo momento",
+    "imagen": null
+  },
+  {
+    "id": 108,
+    "categoria": "Definiciones",
+    "pregunta": "¿Qué se entiende por vía pública?",
+    "opciones": ["El lugar por donde circulan los vehículos", "Espacio público destinado al libre tránsito vehicular, bicicletas y peatonal", "El lugar por donde circulan los peatones"],
+    "respuesta_correcta": "Espacio público destinado al libre tránsito vehicular, bicicletas y peatonal",
+    "imagen": null
+  },
+  {
+    "id": 109,
+    "categoria": "Derechos y Obligaciones",
+    "pregunta": "¿Cuáles son las obligaciones de los peatones en la vía pública?",
+    "opciones": ["Solicitar transporte o pedir ayuda a los automovilistas en lugares apropiados o prohibidos", "Cruzar por las esquinas o cruces peatonales en las vías primarías y vías secundarias con más de dos carriles efectivos de circulación...", "Cruzar la calle por la parte anterior y posterior de los automotores que se hayan detenido momentáneamente"],
+    "respuesta_correcta": "Cruzar por las esquinas o cruces peatonales en las vías primarías y vías secundarias con más de dos carriles efectivos de circulación...",
+    "imagen": null
+  },
+  {
+    "id": 110,
+    "categoria": "Derechos y Obligaciones",
+    "pregunta": "¿Cuáles son derechos de los peatones?",
+    "opciones": ["Tener libre circulación sobre las aceras y zonas peatonales exclusivas...", "Disponer de las vías públicas libres de obstáculos y no invadidas...", "Todas las anteriores"],
+    "respuesta_correcta": "Todas las anteriores",
+    "imagen": null
+  },
+  {
+    "id": 111,
+    "categoria": "Legislación",
+    "pregunta": "Uno de los objetivos de la Ley de Transporte Terrestre Tránsito y Seguridad Vial, es:",
+    "opciones": ["Definir sus principios, garantizar el derecho a la educación superior de calidad...", "Contribuir al desarrollo del País a través de la formulación de políticas...", "El establecimiento de programas de capacitación y difusión para conductores, peatones, pasajeros..."],
+    "respuesta_correcta": "El establecimiento de programas de capacitación y difusión para conductores, peatones, pasajeros...",
+    "imagen": null
+  },
+  {
+    "id": 112,
+    "categoria": "Sanciones",
+    "pregunta": "¿Cómo se sanciona a los responsables de un siniestro de tránsito que no sean conductores (pasajeros, controladores, peatones, etc.)?",
+    "opciones": ["Con las mismas penas que a un conductor responsable del siniestro", "Con las mismas sanciones que un conductor, exceptuando la pérdida de puntos", "Con la mitad de las penas establecidas para un conductor responsable de un siniestro"],
+    "respuesta_correcta": "Con las mismas sanciones que un conductor, exceptuando la pérdida de puntos",
+    "imagen": null
+  },
+  {
+    "id": 113,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿Qué implica conducir con prudencia a pesar de las acciones incorrectas de otros conductores...?",
+    "opciones": ["Conducción con precaución", "Conducir con rapidez", "Cumplir con las normas de tránsito"],
+    "respuesta_correcta": "Conducción con precaución",
+    "imagen": null
+  },
+  {
+    "id": 114,
+    "categoria": "Prevención",
+    "pregunta": "¿Qué implica la prevención de siniestros?",
+    "opciones": ["Evitar las conductas riesgosas : exceso de velocidad, consumo de alcohol...", "Desarrollar un sistema seguro de movilidad...", "Todas las anteriores"],
+    "respuesta_correcta": "Todas las anteriores",
+    "imagen": null
+  },
+  {
+    "id": 115,
+    "categoria": "Educación Vial",
+    "pregunta": "¿Cuáles son los objetivos de la educación vial?",
+    "opciones": ["Reducir de forma sistemática los siniestros de tránsito", "Formar y capacitar a las personas en general para el uso correcto de todos los medios...", "Todas las anteriores"],
+    "respuesta_correcta": "Todas las anteriores",
+    "imagen": null
+  },
+  {
+    "id": 116,
+    "categoria": "Seguridad Vial",
+    "pregunta": "Los niños menores de 12 años podrán viajar en:",
+    "opciones": ["En el asiento delantero con cinturón de seguridad", "En el asiento delantero sin cinturón de seguridad", "En los asientos posteriores utilizando los sistemas de retención infantil..."],
+    "respuesta_correcta": "En los asientos posteriores utilizando los sistemas de retención infantil...",
+    "imagen": null
+  },
+  {
+    "id": 117,
+    "categoria": "Mecánica Básica",
+    "pregunta": "¿Para qué sirven los seguros a prueba de niños en los vehículos?",
+    "opciones": ["Aseguran las hebillas de los cinturones de seguridad", "Bloquean las ventanas traseras manteniéndolas cerradas", "Impiden que las puertas puedan abrirse desde el interior"],
+    "respuesta_correcta": "Impiden que las puertas puedan abrirse desde el interior",
+    "imagen": null
+  },
+  {
+    "id": 118,
+    "categoria": "Seguridad Pasiva",
+    "pregunta": "El dispositivo de seguridad pasiva que reduce el desplazamiento de la cabeza hacia atrás...",
+    "opciones": ["Apoya cabeza", "Cinturón de seguridad", "Airbag"],
+    "respuesta_correcta": "Apoya cabeza",
+    "imagen": null
+  },
+  {
+    "id": 119,
+    "categoria": "Seguridad Pasiva",
+    "pregunta": "¿Cómo se conoce al dispositivo de seguridad pasiva incluida en algunos vehículos el cual se acciona en milisegundos...?",
+    "opciones": ["Apoya cabeza", "Cinturón de seguridad", "Airbag o bolsa de aire"],
+    "respuesta_correcta": "Airbag o bolsa de aire",
+    "imagen": null
+  },
+  {
+    "id": 120,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿Cuál es la distancia mínima que debe mantener entre vehículo y ciclista al conducir?",
+    "opciones": ["1,0 metros", "1,5 metros", "Todas las anteriores"],
+    "respuesta_correcta": "1,5 metros",
+    "imagen": null
+  },
+  {
+    "id": 121,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿Cuándo debo llevar el kit de emergencia o carretero en mi vehículo?",
+    "opciones": ["Solo Triángulos", "Siempre", "Solo en caso de emergencia"],
+    "respuesta_correcta": "Siempre",
+    "imagen": null
+  },
+  {
+    "id": 122,
+    "categoria": "Seguridad Vial",
+    "pregunta": "En un paso cebra no regulado, ¿Quién tiene la preferencia de paso?",
+    "opciones": ["Los vehículos en circulación", "Los Peatones", "El transporte público"],
+    "respuesta_correcta": "Los Peatones",
+    "imagen": null
+  },
+  {
+    "id": 123,
+    "categoria": "Seguridad Vial",
+    "pregunta": "En caso de avería mecánica en la vía, ¿Debo poner los triángulos o conos de seguridad?",
+    "opciones": ["No es necesario", "Si, siempre", "Solo en caso de haber agentes de tránsito"],
+    "respuesta_correcta": "Si, siempre",
+    "imagen": null
+  },
+  {
+    "id": 124,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿A qué distancia mínima antes de una maniobra es obligatorio poner la respectiva luz intermitente?",
+    "opciones": ["Cuando ejecuto la maniobra", "Mínimo 30 metros antes", "Mínimo 10 metros antes"],
+    "respuesta_correcta": "Mínimo 30 metros antes",
+    "imagen": null
+  },
+  {
+    "id": 125,
+    "categoria": "Legislación",
+    "pregunta": "En un siniestro de tránsito las autoridades encargadas del control... ¿Pueden detener a las personas involucradas?",
+    "opciones": ["No pueden detener a nadie hasta que tengan una orden judicial", "Pueden detenerlos y ponerlos a las órdenes del fiscal...", "Solamente pueden detener a los vehículos"],
+    "respuesta_correcta": "Pueden detenerlos y ponerlos a las órdenes del fiscal...",
+    "imagen": null
+  },
+  {
+    "id": 126,
+    "categoria": "Seguridad Vial",
+    "pregunta": "Al momento de rebasar a un ciclista en circulación, ¿Qué distancia mínima debe tomar el vehículo?",
+    "opciones": ["1 metro", "1,5 metros", "50 centímetros"],
+    "respuesta_correcta": "1,5 metros",
+    "imagen": null
+  },
+  {
+    "id": 127,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿Cuál es la distancia mínima de seguimiento que debe mantener entre vehículo y ciclista al conducir?",
+    "opciones": ["1 metro", "3 metros", "2 metros"],
+    "respuesta_correcta": "3 metros",
+    "imagen": null
+  },
+  {
+    "id": 128,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿Qué debe realizar un conductor cuando ve que un bus escolar e institucional se detiene en una parada?",
+    "opciones": ["Acelerar la marcha para pasar al bus", "Esperar y dar el paso a todos los peatones que se bajan del bus", "Ninguna de las anteriores"],
+    "respuesta_correcta": "Esperar y dar el paso a todos los peatones que se bajan del bus",
+    "imagen": null
+  },
+  {
+    "id": 129,
+    "categoria": "Seguridad Vial",
+    "pregunta": "En las carreteras, ¿Los conductores cuando circulan deben dar preferencia?",
+    "opciones": ["Otros conductores", "Peatones, ciclistas, motociclistas y similares.", "Ninguna de las anteriores"],
+    "respuesta_correcta": "Peatones, ciclistas, motociclistas y similares.",
+    "imagen": null
+  }, 
+  {
+    "id": 130,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿Qué se presume si un conductor se niega a realizarse pruebas para la detección de alcohol o de la presencia de sustancias estupefacientes?",
+    "opciones": ["No", "Será considerada como presunción de estar en el máximo grado de intoxicación", "Solo en el día"],
+    "respuesta_correcta": "Será considerada como presunción de estar en el máximo grado de intoxicación",
+    "imagen": null
+  },
+  {
+    "id": 131,
+    "categoria": "Preferencia de Paso",
+    "pregunta": "Cuando se conduzca un vehículo a motor y se requiera cruzar una acera para entrar o salir de un estacionamiento, ¿quién tiene preferencia de paso?",
+    "opciones": ["El conductor que está saliendo.", "Solo los vehículos", "Peatones, ciclistas y vehículos"],
+    "respuesta_correcta": "Peatones, ciclistas y vehículos",
+    "imagen": null
+  },
+  {
+    "id": 132,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿A qué velocidad se estima que un atropellamiento de un niño/a sería mortal?",
+    "opciones": ["10km/h", "15km/h", "25km/h"],
+    "respuesta_correcta": "25km/h",
+    "imagen": null
+  },
+  {
+    "id": 133,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿A qué velocidad se estima que el atropellamiento a un adulto sería mortal?",
+    "opciones": ["20km/h", "40km/h", "60km/h"],
+    "respuesta_correcta": "60km/h",
+    "imagen": null
+  },
+  {
+    "id": 134,
+    "categoria": "Preferencia de Paso",
+    "pregunta": "En caso de que no exista señalización horizontal y/o vertical, ¿Quién tendría derecho de paso en la vía en caso de que los usuarios presentes incluyan peatones, ciclistas, vehículos livianos, carga pesada?",
+    "opciones": ["Peatones", "Biciusuarios", "Transporte público de pasajeros"],
+    "respuesta_correcta": "Peatones",
+    "imagen": null
+  },
+  {
+    "id": 135,
+    "categoria": "Preferencia de Paso",
+    "pregunta": "Si un peatón va a cruzar una intersección con luz verde del semáforo vehicular o una intersección no regulada y un vehículo va a girar, ¿Quién tiene la preferencia de paso?",
+    "opciones": ["El auto", "El peatón", "Los dos"],
+    "respuesta_correcta": "El peatón",
+    "imagen": null
+  },
+  {
+    "id": 136,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿Qué son las zonas 30?",
+    "opciones": ["Zona en donde la velocidad máxima es 30 km/h", "Es una zona peatonal", "Zona en donde la velocidad mínima es 30km/h"],
+    "respuesta_correcta": "Zona en donde la velocidad máxima es 30 km/h",
+    "imagen": null
+  },
+  {
+    "id": 137,
+    "categoria": "Movilidad Activa",
+    "pregunta": "¿Por qué la movilidad activa es importante?",
+    "opciones": ["Está de moda", "Genera menor impacto ambiental, social y económico", "Ninguna de las anteriores"],
+    "respuesta_correcta": "Genera menor impacto ambiental, social y económico",
+    "imagen": null
+  },
+  {
+    "id": 138,
+    "categoria": "Responsabilidad Ciudadana",
+    "pregunta": "¿Un pasajero de transporte público puede denunciar ante la autoridad de tránsito, cuando el conductor esté en estado de ebriedad?",
+    "opciones": ["Es su obligación", "Talvez", "No"],
+    "respuesta_correcta": "Es su obligación",
+    "imagen": null
+  },
+  {
+    "id": 139,
+    "categoria": "Seguridad Vial",
+    "pregunta": "¿En qué porcentaje disminuyen las probabilidades de muerte para un motociclista o ciclista durante un siniestro si utiliza casco homologado?",
+    "opciones": ["No disminuyen, aumentan", "1%", "39%"],
+    "respuesta_correcta": "39%",
+    "imagen": null
+  },
+  {
+    "id": 140,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "¿A quién se otorga la licencia tipo F?",
+    "opciones": ["A las personas mayores de edad que conducen vehículos comerciales", "A las personas de 16 años que no cumplen la mayoría de edad", "A las personas que tienen un carnet de discapacidad con más del 30%"],
+    "respuesta_correcta": "A las personas que tienen un carnet de discapacidad con más del 30%",
+    "imagen": null
+  },
+  {
+    "id": 141,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "¿Cuál es la manera más segura para llevar a un niño en el vehículo?",
+    "opciones": ["En la falda de un adulto que va con su cinturón de seguridad", "En cualquier asiento, siempre que lleve puesto el cinturón de seguridad para adultos", "En el asiento trasero, en un sistema de seguridad"],
+    "respuesta_correcta": "En el asiento trasero, en un sistema de seguridad",
+    "imagen": null
+  },
+  {
+    "id": 142,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "En una vía urbana, ¿cuál es el límite máximo de velocidad en el que debe circular un vehículo considerado liviano?",
+    "opciones": ["40 Km/h", "50 Km/h", "60 Km/h"],
+    "respuesta_correcta": "50 Km/h",
+    "imagen": null
+  },
+  {
+    "id": 143,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "¿Cuál es la razón principal por la que la distancia mínima entre el conductor y el volante debe ser de 25 cm?",
+    "opciones": ["Porque al sentarse a mayor distancia no tendría suficiente visibilidad", "Porque es la distancia de acción del airbag al explotar", "Ninguna de las anteriores"],
+    "respuesta_correcta": "Porque es la distancia de acción del airbag al explotar",
+    "imagen": null
+  },
+  {
+    "id": 144,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "En una vía perimetral, ¿cuál es el límite máximo de velocidad en el que debe circular un vehículo considerado liviano?",
+    "opciones": ["80 Km/h", "90 Km/h", "95 Km/h"],
+    "respuesta_correcta": "90 Km/h",
+    "imagen": null
+  },
+  {
+    "id": 145,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "¿Para quién es obligatorio el uso del cinturón de seguridad?",
+    "opciones": ["Solamente para el conductor", "Solamente para los pasajeros", "Para todos los ocupantes del vehículo"],
+    "respuesta_correcta": "Para todos los ocupantes del vehículo",
+    "imagen": null
+  },
+  {
+    "id": 146,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "En vías rectas, ¿cuál es el límite máximo de velocidad en el que debe circular un vehículo considerado liviano?",
+    "opciones": ["80 Km/h", "90 Km/h", "100 Km/h"],
+    "respuesta_correcta": "90 Km/h",
+    "imagen": null
+  },
+  {
+    "id": 147,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "El freno de mano actúa sobre las ruedas:",
+    "opciones": ["Delanteras", "Posteriores", "Todas las anteriores"],
+    "respuesta_correcta": "Posteriores",
+    "imagen": null
+  },
+  {
+    "id": 148,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "¿Qué tiempo de vigencia tienen las licencias no profesional tipo B?",
+    "opciones": ["4 años", "6 años", "5 años"],
+    "respuesta_correcta": "5 años",
+    "imagen": null
+  },
+  {
+    "id": 149,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "El conductor con licencia tipo B, ¿puede llevar pasajeros en el balde de una camioneta?",
+    "opciones": ["Si", "No, nunca", "Sí, sólo si están dentro del área urbana"],
+    "respuesta_correcta": "No, nunca",
+    "imagen": null
+  },
+  {
+    "id": 150,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "¿Cuándo una Licencia de conducir puede ser anulada?",
+    "opciones": ["Cuando los exámenes correspondientes determinen la incapacidad física mental y psicológica...", "Cuando esté caducada.", "Cuando se detecte que éstas han sido otorgadas mediante un acto viciado por defectos de forma o falta de requisitos de fondo."],
+    "respuesta_correcta": "Cuando se detecte que éstas han sido otorgadas mediante un acto viciado por defectos de forma o falta de requisitos de fondo.",
+    "imagen": null
+  },
+  {
+    "id": 151,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "¿Qué tipo de vehículos puede conducir una persona que posee licencia tipo B?",
+    "opciones": ["Automóviles y camionetas con acoplados de hasta 1,55 toneladas...", "Automóviles y camionetas con acoplados de hasta 1,65 toneladas...", "Automóviles y camionetas con acoplados de hasta 1,75 toneladas de carga útil o casas rodantes"],
+    "respuesta_correcta": "Automóviles y camionetas con acoplados de hasta 1,75 toneladas de carga útil o casas rodantes",
+    "imagen": null
+  },
+  {
+    "id": 152,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "El ajuste del asiento del conductor debe:",
+    "opciones": ["Facilitar el acceso a los mandos y disponer de buena visibilidad", "Ser lo más posible para ver mejor hacia delante", "Estar lo más adelante posible para poder acelerar mejor"],
+    "respuesta_correcta": "Facilitar el acceso a los mandos y disponer de buena visibilidad",
+    "imagen": null
+  },
+  {
+    "id": 153,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "¿Cuál es la distancia mínima de seguimiento que debe mantener entre vehículo y ciclista al conducir?",
+    "opciones": ["1 metro", "3 metros", "2 metros"],
+    "respuesta_correcta": "3 metros",
+    "imagen": null
+  },
+  {
+    "id": 154,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "Al momento de rebasar a un ciclista en circulación ¿Qué distancia mínima debe tomar el vehículo?",
+    "opciones": ["1 metro", "1,5 metros", "50 centímetros"],
+    "respuesta_correcta": "1,5 metros",
+    "imagen": null
+  },
+  {
+    "id": 155,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "¿A qué velocidad se estima que un atropellamiento de un niño/a sería mortal?",
+    "opciones": ["10km/h", "15km/h", "25km/h"],
+    "respuesta_correcta": "25km/h",
+    "imagen": null
+  },
+  {
+    "id": 156,
+    "categoria": "Específicas Tipo B/F",
+    "pregunta": "En un paso cebra no regulado, ¿Quién tiene la preferencia de paso?",
+    "opciones": ["Los vehículos en circulación", "Los Peatones", "El transporte público"],
+    "respuesta_correcta": "Los Peatones",
+    "imagen": null
+  }
+]
